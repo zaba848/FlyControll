@@ -6,13 +6,10 @@
 #include <stm32l4xx_hal.h>
 
 uint32_t CTimer::tick;
-uint32_t CTimer::tickBackup;
-
 
 void CTimer::initCTimer()
 {
 	tick = 0;
-	tickBackup = tick;
 
 }
 

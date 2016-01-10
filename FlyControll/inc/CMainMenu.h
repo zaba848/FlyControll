@@ -8,6 +8,12 @@
 #ifndef CMAINMENU_H_
 #define CMAINMENU_H_
 
+#include <CCaculator.h>
+#include "CTimer.h"
+#include <CComm.h>
+#include <CDriver.h>
+#include <staticConst.h>
+
 class CMainMenu {
 public:
 
@@ -16,6 +22,7 @@ public:
 
 protected:
 
+	static CTimer updateTimer;
 
 private:
 

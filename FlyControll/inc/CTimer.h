@@ -49,7 +49,7 @@ protected:
 private:
 
 	static uint32_t tick;
-	static uint32_t tickBackup;
+	 uint32_t tickBackup;
 
 };
 
