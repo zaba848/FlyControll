@@ -1,25 +1,25 @@
-/*
 
 
 
 
-#include <CTimer.h>
+
+#include <CTimers.h>
 #include <stm32l4xx_hal.h>
 
-uint32_t CTimer::tick;
+uint32_t CTimers::tick;
 
-void CTimer::initCTimer()
-{
-	tick = 0;
+//void CTimers::initCTimers()
+//{
+//	tick = 0;
+//
+//}
 
-}
-
-void CTimer::timerTick()
+void CTimers::timerTick()
 {
 	tick = getTick();
 }
 
-CTimer::CTimer() {
+CTimers::CTimers() {
 	this->timer.isEnable = false;
 	this->timer.timeUp	 = true;
 	this->timer.unit 	 = CT_MS;
@@ -31,7 +31,7 @@ CTimer::CTimer() {
 
 }
 
-void CTimer::reconfigure(uint16_t interupt, CTime unit, bool setEnable)
+void CTimers::reconfigure(uint16_t interupt, CTime unit, bool setEnable)
 {
 	this->timer.isEnable = setEnable;
 	this->timer.unit 	 = unit;
@@ -43,7 +43,7 @@ void CTimer::reconfigure(uint16_t interupt, CTime unit, bool setEnable)
 
 
 }
-void CTimer::update()
+void CTimers::update()
  {
 	if (this->timer.isEnable && (tick != this->tickBackup))
 	{
@@ -65,7 +65,7 @@ void CTimer::update()
 	}
 
 }
-bool CTimer::isGoing()
+bool CTimers::isGoing()
 {
 	if((this->timer.interupt == 0 ? false : true) && this->timer.isEnable)
 	{
@@ -75,11 +75,11 @@ bool CTimer::isGoing()
 		return false;
 	}
 }
-bool CTimer::isEnable()
+bool CTimers::isEnable()
 {
 	return this->timer.isEnable;
 }
-bool CTimer::timeUp(bool reset)
+bool CTimers::timeUp(bool reset)
 {
 	if(this->timer.timeUp)
 	{
@@ -89,12 +89,12 @@ bool CTimer::timeUp(bool reset)
 	}
 	return false;
 }
-void CTimer::setState(bool isEnable)
+void CTimers::setState(bool isEnable)
 {
 	this->timer.isEnable = isEnable;
 }
 
-void CTimer::resetTimer()
+void CTimers::resetTimer()
 {
 
 	this->timer.timeUp   = false;
@@ -106,4 +106,4 @@ void CTimer::resetTimer()
 }
 
 
-*/
+

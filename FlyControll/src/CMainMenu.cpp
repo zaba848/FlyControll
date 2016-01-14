@@ -8,14 +8,14 @@
 
 #include <CMainMenu.h>
 
-CTimer CMainMenu::updateTimer;
+CTimers CMainMenu::updateTimer;
 
 void CMainMenu::init()
 {
-	CTimer::initCTimer();
+//	CTimer::initCTimer();
 	CComm::init();
 	CDriver::init();
-	updateTimer.reconfigure(COMMUNICATION_DELAY, CTimer::CT_DCS);
+	updateTimer.reconfigure(COMMUNICATION_DELAY, CTimers::CT_DCS);
 
 
 }
@@ -25,7 +25,7 @@ void CMainMenu::run()
 
 	while(1)
 	{
-		CTimer::timerTick();
+		CTimers::timerTick();
 		updateTimer.update();
 		CComm::update();
 

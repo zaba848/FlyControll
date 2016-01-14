@@ -19972,7 +19972,7 @@ OUTPUT(FlyControll.elf elf32-littlearm)
  .debug_ranges  0x00000c40       0x28 src/usart.o
  .debug_ranges  0x00000c68       0x20 startup/startup_stm32l476xx.o
 
-.debug_macro    0x00000000    0x22b19
+.debug_macro    0x00000000    0x22b11
  .debug_macro   0x00000000      0x489 HAL_Driver/Src/stm32l4xx_hal.o
  .debug_macro   0x00000489      0x892 HAL_Driver/Src/stm32l4xx_hal.o
  .debug_macro   0x00000d1b      0x15f HAL_Driver/Src/stm32l4xx_hal.o
@@ -20094,21 +20094,21 @@ OUTPUT(FlyControll.elf elf32-littlearm)
  .debug_macro   0x0001f276       0xef src/CComm.o
  .debug_macro   0x0001f365      0xe43 src/CComm.o
  .debug_macro   0x000201a8       0x89 src/CDriver.o
- .debug_macro   0x00020231      0x512 src/CMainMenu.o
- .debug_macro   0x00020743      0x44e src/CTimer.o
- .debug_macro   0x00020b91      0x445 src/gpio.o
- .debug_macro   0x00020fd6      0x542 src/main.o
- .debug_macro   0x00021518      0x44f src/spi.o
- .debug_macro   0x00021967      0x445 src/stm32l4xx_it.o
- .debug_macro   0x00021dac      0x112 src/syscalls.o
- .debug_macro   0x00021ebe      0x23b src/syscalls.o
- .debug_macro   0x000220f9       0x10 src/syscalls.o
- .debug_macro   0x00022109       0x10 src/syscalls.o
- .debug_macro   0x00022119       0x10 src/syscalls.o
- .debug_macro   0x00022129       0x35 src/syscalls.o
- .debug_macro   0x0002215e      0x121 src/syscalls.o
- .debug_macro   0x0002227f      0x442 src/system_stm32l4xx.o
- .debug_macro   0x000226c1      0x458 src/usart.o
+ .debug_macro   0x00020231      0x50e src/CMainMenu.o
+ .debug_macro   0x0002073f      0x44e src/CTimer.o
+ .debug_macro   0x00020b8d      0x445 src/gpio.o
+ .debug_macro   0x00020fd2      0x53e src/main.o
+ .debug_macro   0x00021510      0x44f src/spi.o
+ .debug_macro   0x0002195f      0x445 src/stm32l4xx_it.o
+ .debug_macro   0x00021da4      0x112 src/syscalls.o
+ .debug_macro   0x00021eb6      0x23b src/syscalls.o
+ .debug_macro   0x000220f1       0x10 src/syscalls.o
+ .debug_macro   0x00022101       0x10 src/syscalls.o
+ .debug_macro   0x00022111       0x10 src/syscalls.o
+ .debug_macro   0x00022121       0x35 src/syscalls.o
+ .debug_macro   0x00022156      0x121 src/syscalls.o
+ .debug_macro   0x00022277      0x442 src/system_stm32l4xx.o
+ .debug_macro   0x000226b9      0x458 src/usart.o
 
 .debug_line     0x00000000    0x134e3
  .debug_line    0x00000000      0xcdf HAL_Driver/Src/stm32l4xx_hal.o

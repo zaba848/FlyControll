@@ -1,3 +1,4 @@
+/*
 
 
 #ifndef CTIMER_H_
@@ -55,3 +56,4 @@ private:
 
 #endif  CTIMER_H_
 
+*/

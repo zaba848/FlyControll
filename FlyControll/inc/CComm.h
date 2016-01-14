@@ -11,7 +11,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <staticConst.h>
-#include <CTimer.h>
+#include <CTimers.h>
 #include <usart.h>
 #include <CCaculator.h>
 
@@ -25,8 +25,8 @@ public:
 
 protected:
 
-	static 	char printBuffer[30];
-	static CTimer communicationTimer;
+	static 	char printBuffer[5];
+	static CTimers communicationTimer;
 
 
 

@@ -1,233 +1,253 @@
-src/CMainMenu.o: ../src/CMainMenu.cpp D:/panekT/FlyControll/inc/CComm.h \
- D:/panekT/FlyControll/inc/CMainMenu.h D:/panekT/FlyControll/inc/CTimer.h \
- D:/panekT/FlyControll/inc/stm32l4xx_it.h \
- D:/panekT/FlyControll/inc/usart.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_conf.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_def.h \
- D:/panekT/FlyControll/CMSIS/device/stm32l4xx.h \
- D:/panekT/FlyControll/CMSIS/device/stm32l476xx.h \
- D:/panekT/FlyControll/CMSIS/core/core_cm4.h \
- D:/panekT/FlyControll/CMSIS/core/core_cmInstr.h \
- D:/panekT/FlyControll/CMSIS/core/core_cmFunc.h \
- D:/panekT/FlyControll/CMSIS/core/core_cmSimd.h \
- D:/panekT/FlyControll/CMSIS/device/system_stm32l4xx.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_gpio.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dma.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dfsdm.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_cortex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_adc.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_adc_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_can.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_comp.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_crc.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_crc_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_cryp.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dac.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dac_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_firewall.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sram.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_fmc.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_nor.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_nand.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_i2c.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_iwdg.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_lcd.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_lptim.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_opamp.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_opamp_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_qspi.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rng.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rtc.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rtc_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sai.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sd.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smbus.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_spi.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_swpmi.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tim.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tsc.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_uart.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_usart.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_usart_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_irda.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_irda_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smartcard.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smartcard_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_wwdg.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pcd.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_usb.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h \
- D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_hcd.h \
- D:/panekT/FlyControll/Utilities/STM32L476G-Discovery/stm32l476g_discovery_compass.h \
- D:/panekT/FlyControll/Utilities/STM32L476G-Discovery/stm32l476g_discovery.h
+src/CMainMenu.o: ../src/CMainMenu.cpp \
+ C:/Users/User/git/FlyControll/FlyControll/inc/CMainMenu.h \
+ C:/Users/User/git/FlyControll/FlyControll/inc/CCaculator.h \
+ C:/Users/User/git/FlyControll/FlyControll/inc/staticConst.h \
+ C:/Users/User/git/FlyControll/FlyControll/inc/CDriver.h \
+ C:/Users/User/git/FlyControll/FlyControll/Utilities/Components/Common/magneto.h \
+ C:/Users/User/git/FlyControll/FlyControll/Utilities/Components/Common/accelero.h \
+ C:/Users/User/git/FlyControll/FlyControll/Utilities/Components/lsm303c/lsm303c.h \
+ c:\users\user\git\flycontroll\flycontroll\utilities\components\common\accelero.h \
+ c:\users\user\git\flycontroll\flycontroll\utilities\components\common\magneto.h \
+ C:/Users/User/git/FlyControll/FlyControll/inc/CTimers.h \
+ C:/Users/User/git/FlyControll/FlyControll/inc/stm32l4xx_it.h \
+ C:/Users/User/git/FlyControll/FlyControll/inc/CComm.h \
+ C:/Users/User/git/FlyControll/FlyControll/inc/usart.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_conf.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_def.h \
+ C:/Users/User/git/FlyControll/FlyControll/CMSIS/device/stm32l4xx.h \
+ C:/Users/User/git/FlyControll/FlyControll/CMSIS/device/stm32l476xx.h \
+ C:/Users/User/git/FlyControll/FlyControll/CMSIS/core/core_cm4.h \
+ C:/Users/User/git/FlyControll/FlyControll/CMSIS/core/core_cmInstr.h \
+ C:/Users/User/git/FlyControll/FlyControll/CMSIS/core/core_cmFunc.h \
+ C:/Users/User/git/FlyControll/FlyControll/CMSIS/core/core_cmSimd.h \
+ C:/Users/User/git/FlyControll/FlyControll/CMSIS/device/system_stm32l4xx.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_gpio.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dma.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dfsdm.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_cortex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_adc.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_adc_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_can.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_comp.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_crc.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_crc_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_cryp.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dac.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dac_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_firewall.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sram.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_fmc.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_nor.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_nand.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_i2c.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_iwdg.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_lcd.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_lptim.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_opamp.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_opamp_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_qspi.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rng.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rtc.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rtc_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sai.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sd.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smbus.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_swpmi.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tim.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tsc.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_usart.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_usart_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_irda.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_irda_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smartcard.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smartcard_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_wwdg.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pcd.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_usb.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h \
+ C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_hcd.h
 
-D:/panekT/FlyControll/inc/CComm.h:
+C:/Users/User/git/FlyControll/FlyControll/inc/CMainMenu.h:
 
-D:/panekT/FlyControll/inc/CMainMenu.h:
+C:/Users/User/git/FlyControll/FlyControll/inc/CCaculator.h:
 
-D:/panekT/FlyControll/inc/CTimer.h:
+C:/Users/User/git/FlyControll/FlyControll/inc/staticConst.h:
 
-D:/panekT/FlyControll/inc/stm32l4xx_it.h:
+C:/Users/User/git/FlyControll/FlyControll/inc/CDriver.h:
 
-D:/panekT/FlyControll/inc/usart.h:
+C:/Users/User/git/FlyControll/FlyControll/Utilities/Components/Common/magneto.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal.h:
+C:/Users/User/git/FlyControll/FlyControll/Utilities/Components/Common/accelero.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_conf.h:
+C:/Users/User/git/FlyControll/FlyControll/Utilities/Components/lsm303c/lsm303c.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
+c:\users\user\git\flycontroll\flycontroll\utilities\components\common\accelero.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_def.h:
+c:\users\user\git\flycontroll\flycontroll\utilities\components\common\magneto.h:
 
-D:/panekT/FlyControll/CMSIS/device/stm32l4xx.h:
+C:/Users/User/git/FlyControll/FlyControll/inc/CTimers.h:
 
-D:/panekT/FlyControll/CMSIS/device/stm32l476xx.h:
+C:/Users/User/git/FlyControll/FlyControll/inc/stm32l4xx_it.h:
 
-D:/panekT/FlyControll/CMSIS/core/core_cm4.h:
+C:/Users/User/git/FlyControll/FlyControll/inc/CComm.h:
 
-D:/panekT/FlyControll/CMSIS/core/core_cmInstr.h:
+C:/Users/User/git/FlyControll/FlyControll/inc/usart.h:
 
-D:/panekT/FlyControll/CMSIS/core/core_cmFunc.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal.h:
 
-D:/panekT/FlyControll/CMSIS/core/core_cmSimd.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_conf.h:
 
-D:/panekT/FlyControll/CMSIS/device/system_stm32l4xx.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_def.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/CMSIS/device/stm32l4xx.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_gpio.h:
+C:/Users/User/git/FlyControll/FlyControll/CMSIS/device/stm32l476xx.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/CMSIS/core/core_cm4.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dma.h:
+C:/Users/User/git/FlyControll/FlyControll/CMSIS/core/core_cmInstr.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dfsdm.h:
+C:/Users/User/git/FlyControll/FlyControll/CMSIS/core/core_cmFunc.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_cortex.h:
+C:/Users/User/git/FlyControll/FlyControll/CMSIS/core/core_cmSimd.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_adc.h:
+C:/Users/User/git/FlyControll/FlyControll/CMSIS/device/system_stm32l4xx.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_adc_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_can.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_comp.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_gpio.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_crc.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_crc_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dma.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_cryp.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dfsdm.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dac.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_cortex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dac_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_adc.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_firewall.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_adc_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_can.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_comp.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_crc.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sram.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_crc_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_fmc.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_cryp.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_nor.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dac.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_nand.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_dac_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_i2c.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_firewall.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_iwdg.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_lcd.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_lptim.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sram.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_opamp.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_fmc.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_opamp_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_nor.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pwr.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_nand.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_i2c.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_qspi.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rng.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_iwdg.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rtc.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_lcd.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rtc_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_lptim.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sai.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_opamp.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sd.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_opamp_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pwr.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smbus.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_spi.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_qspi.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rng.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_swpmi.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rtc.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tim.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_rtc_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sai.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tsc.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_sd.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_uart.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smbus.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_usart.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_spi.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_usart_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_irda.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_swpmi.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_irda_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tim.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smartcard.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smartcard_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_tsc.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_wwdg.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_uart.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pcd.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_usb.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_usart.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_usart_ex.h:
 
-D:/panekT/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_hcd.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_irda.h:
 
-D:/panekT/FlyControll/Utilities/STM32L476G-Discovery/stm32l476g_discovery_compass.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_irda_ex.h:
 
-D:/panekT/FlyControll/Utilities/STM32L476G-Discovery/stm32l476g_discovery.h:
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smartcard.h:
+
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_smartcard_ex.h:
+
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_wwdg.h:
+
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pcd.h:
+
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_ll_usb.h:
+
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h:
+
+C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_hcd.h:

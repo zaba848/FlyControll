@@ -9,7 +9,7 @@
 #define CMAINMENU_H_
 
 #include <CCaculator.h>
-#include "CTimer.h"
+#include <CTimers.h>
 #include <CComm.h>
 #include <CDriver.h>
 #include <staticConst.h>
@@ -22,7 +22,7 @@ public:
 
 protected:
 
-	static CTimer updateTimer;
+	static CTimers updateTimer;
 
 private:
 

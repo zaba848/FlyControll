@@ -11,7 +11,6 @@ src/CMainMenu.o: ../src/CMainMenu.cpp \
  C:/Users/User/git/FlyControll/FlyControll/inc/CTimer.h \
  C:/Users/User/git/FlyControll/FlyControll/inc/stm32l4xx_it.h \
  C:/Users/User/git/FlyControll/FlyControll/inc/CComm.h \
- C:/Users/User/git/FlyControll/FlyControll/inc/CTimer.h \
  C:/Users/User/git/FlyControll/FlyControll/inc/usart.h \
  C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal.h \
  C:/Users/User/git/FlyControll/FlyControll/HAL_Driver/Inc/stm32l4xx_hal_conf.h \
@@ -108,8 +107,6 @@ C:/Users/User/git/FlyControll/FlyControll/inc/CTimer.h:
 C:/Users/User/git/FlyControll/FlyControll/inc/stm32l4xx_it.h:
 
 C:/Users/User/git/FlyControll/FlyControll/inc/CComm.h:
-
-C:/Users/User/git/FlyControll/FlyControll/inc/CTimer.h:
 
 C:/Users/User/git/FlyControll/FlyControll/inc/usart.h:
 
