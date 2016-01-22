@@ -18,13 +18,13 @@ class CCaculator {
 public:
 
 	static void update();
-	static int16_t getPich()	{return accBuffer[0];};
-	static int16_t getRoll()	{return accBuffer[1];};
+	static float getPich()	{return accBuffer[0];};
+	static float getRoll()	{return accBuffer[1];};
 
 
 protected:
 
-	static int16_t accBuffer[2];
+	static float accBuffer[2];
 	static void calculate();
 
 };

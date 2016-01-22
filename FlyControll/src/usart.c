@@ -11,6 +11,12 @@ void send(char c[])
 
 }
 
+void sendInt(int8_t i[])
+{
+	HAL_UART_Transmit(&huart2, (uint8_t*)i, strlen(i), 0xFFFF);
+
+}
+
 void MX_USART2_UART_Init(void)
 {
 

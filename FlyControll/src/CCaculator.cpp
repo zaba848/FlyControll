@@ -8,7 +8,7 @@
 #include <CCaculator.h>
 
 
-int16_t CCaculator::accBuffer[]= {0,0};
+float CCaculator::accBuffer[]= {0,0};
 
 
 void CCaculator::update()
@@ -23,10 +23,16 @@ void CCaculator::calculate()
 	accBuffer[1] = (atan2( (CDriver::getAccY() ),(CDriver::getAccZ() )) )* 180 / PI;
 
 
-	if (accBuffer[0] >180)
-		{
+	if (accBuffer[0] > 180) {
 		accBuffer[0] -= 360;
-		}
-		         if (accBuffer[1] >180)
-		        	 accBuffer[1] -= 360;
+	}
+	if (accBuffer[1] > 180)
+		accBuffer[1] -= 360;
+
+	if ((accBuffer[0] > 127) || (accBuffer[0] < -127)) {
+		accBuffer[0] = 0;
+	}
+	if ((accBuffer[1] > 127) || (accBuffer[1] < -127)) {
+		accBuffer[1] = 0;
+	}
 }

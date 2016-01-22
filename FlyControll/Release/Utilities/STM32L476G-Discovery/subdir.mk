@@ -5,30 +5,15 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Utilities/STM32L476G-Discovery/stm32l476g_discovery.c \
-../Utilities/STM32L476G-Discovery/stm32l476g_discovery_audio.c \
-../Utilities/STM32L476G-Discovery/stm32l476g_discovery_compass.c \
-../Utilities/STM32L476G-Discovery/stm32l476g_discovery_glass_lcd.c \
-../Utilities/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.c \
-../Utilities/STM32L476G-Discovery/stm32l476g_discovery_idd.c \
-../Utilities/STM32L476G-Discovery/stm32l476g_discovery_qspi.c 
+../Utilities/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.c 
 
 OBJS += \
 ./Utilities/STM32L476G-Discovery/stm32l476g_discovery.o \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_audio.o \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_compass.o \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_glass_lcd.o \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.o \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_idd.o \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_qspi.o 
+./Utilities/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.o 
 
 C_DEPS += \
 ./Utilities/STM32L476G-Discovery/stm32l476g_discovery.d \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_audio.d \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_compass.d \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_glass_lcd.d \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.d \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_idd.d \
-./Utilities/STM32L476G-Discovery/stm32l476g_discovery_qspi.d 
+./Utilities/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

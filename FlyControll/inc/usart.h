@@ -43,6 +43,7 @@
 
 extern UART_HandleTypeDef huart2;
 void send(char c[]);
+void sendInt(int8_t i[]);
 void MX_USART2_UART_Init(void);
 
 #ifdef __cplusplus

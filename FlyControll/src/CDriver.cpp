@@ -7,8 +7,6 @@
 
 #include <CDriver.h>
 //#include <cstdint>
-#include <stdint.h>
-#include <stddef.h>
 
 ACCELERO_DrvTypeDef* CDriver::AccelerometerDrv;
 MAGNETO_DrvTypeDef*  CDriver::MagnetoDrv;

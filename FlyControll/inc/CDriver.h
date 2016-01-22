@@ -11,6 +11,8 @@
 #include "magneto.h"
 #include "accelero.h"
 #include "lsm303c.h"
+#include <stdint.h>
+#include <stddef.h>
 
 
 class CDriver {

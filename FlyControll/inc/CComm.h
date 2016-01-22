@@ -25,8 +25,11 @@ public:
 
 protected:
 
-	static 	char printBuffer[5];
+	static 	char printBuffer[20];
+	static int8_t printBufferUint[20];
+
 	static CTimers communicationTimer;
+	static CTimers sendDelay;
 
 
 

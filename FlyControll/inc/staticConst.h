@@ -10,7 +10,7 @@
 #define USART_RX_Pin GPIO_PIN_6
 #define USART_RX_GPIO_Port GPIOD
 
-#define COMMUNICATION_DELAY  4
+#define COMMUNICATION_DELAY  1
 #define PI  3.1415926535
 //static const uint16_t COMMUNICATION_DELAY = 4;
 //static const float PI = 3.1415926535;
